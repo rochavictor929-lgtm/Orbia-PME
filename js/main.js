@@ -7,7 +7,7 @@
      (Stripe, Hotmart, PayPal, Kiwify, etc.). Todos os botões com a
      classe ".btn-buy" em toda a página vão usar automaticamente este link.
      ====================================================================== */
-  const CHECKOUT_URL = 'https://SEU-LINK-DE-PAGAMENTO-AQUI.com';
+  const CHECKOUT_URL = 'https://buy.stripe.com/fZu7sKamb46Mc9q93P8ww00';
 
   document.querySelectorAll('.btn-buy').forEach(function (btn) {
     btn.setAttribute('href', CHECKOUT_URL);
